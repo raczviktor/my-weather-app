@@ -1,3 +1,5 @@
+import { APIKey } from "./secret.js";
+
 const container = document.querySelector('.container');
 const search = document.querySelector('.search-box button');
 const weatherBox = document.querySelector('.weather-box');
@@ -6,7 +8,7 @@ const notFound = document.querySelector('.not-found');
 
 search.addEventListener('click', () => {
 
-    const APIKey = 'd725e36085a18191a50c8be7a4b3e8c9';
+    
     const city = document.querySelector('.search-box input').value;
 
     if (city === '') return;
