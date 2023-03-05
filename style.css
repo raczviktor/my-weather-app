@@ -78,8 +78,8 @@ body {
 }
 
 .weather-box img {
-    width: 60%;
     margin-top: 30px;
+    height: 200px;
 }
 
 .weather-box .temperature {
