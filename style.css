@@ -11,14 +11,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background-color: #3F497F;
 }
 
 .container {
     position: relative;
     width: 400px;
     height: 105px;
-    background-color: white;
+    background-color: #F8F5E4;
     padding: 28px 32px;
     overflow: hidden;
     border-radius: 18px;
@@ -35,8 +35,8 @@ body {
 }
 
 .search-box input {
-    color: black;
-    background-color: white;
+    color: #3F497F;
+    background-color: #F8F5E4;
     width: 80%;
     font-size: 24px;
     font-weight: 500;
@@ -47,7 +47,7 @@ body {
 .search-box input::placeholder {
     font-size: 20px;
     font-weight: 500;
-    color: black;
+    color: #3F497F;
     text-transform: capitalize;
 }
 
@@ -55,21 +55,21 @@ body {
     cursor: pointer;
     width: 50px;
     height: 50px;
-    color: white;
-    background-color: red;
+    color: #F8F5E4;
+    background-color: #3F497F;
     border-radius: 50%;
     font-size: 22px;
     transition: 0.4 ease;
 }
 
 .search-box button:hover {
-    color: white;
-    background-color: green;
+    color: #3F497F;
+    background-color: #F7C04A;
 }
 
 .search-box i {
     position: absolute;
-    color: black;
+    color: #EB455F;
     font-size: 28px;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .weather-box .temperature {
     position: relative;
-    color: black;
+    color: #F7C04A;
     font-size: 4rem;
     font-weight: 800;
     margin-top: 30px;
@@ -98,7 +98,7 @@ body {
 }
 
 .weather-description .description {
-    color: black;
+    color: #3F497F;
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize;
@@ -129,20 +129,20 @@ body {
 }
 
 .weather-details i {
-    color: black;
+    color: #3F497F;
     font-size: 26px;
     margin-right: 10px;
     margin-top: 6px;
 }
 
 .weather-details span {
-    color: black;
+    color: #539165;
     font-size: 22px;
     font-weight: 500;
 }
 
 .weather-details p {
-    color: black;
+    color: #3F497F;
     font-size: 14px;
     font-weight: 500;
 }
@@ -151,6 +151,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 20px;
     scale: 0;
     opacity: 0;
     display: none;
@@ -161,7 +162,7 @@ body {
 }
 
 .not-found p {
-    color: black;
+    color: #3F497F;
     font-size: 22px;
     font-weight: 500;
     margin-top: 12px;
