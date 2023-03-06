@@ -1,4 +1,6 @@
 note.txt
 secret.js
-package-lock.json
-node_modules
+firebase*
+.firebase*
+node*
+package-lock*
